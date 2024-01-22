@@ -17,6 +17,7 @@
 }
 
 html, body {
+    font-family: var(--fonte01);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -52,6 +53,8 @@ header a:hover, footer a:hover {
 }
 
 section {
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -70,13 +73,9 @@ section {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
-}
-
-section p {
-    font-family: var(--fonte03);
-    
 }
 
 footer {
